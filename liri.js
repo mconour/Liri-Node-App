@@ -44,7 +44,7 @@ function runLiri(userCommands, userSearch) {
             getRandom();
             break;
 
-            // If userCommands is left blank, give user defaul message
+            // If userCommands is left blank, defaul message below will display
 
         default:
             console.log("Ah ah ah, you didn't say one of the magic commands. Please enter 'movie-this', 'concert-this', 'spotify-this-song' or 'do-what-it-says' to continue");
@@ -85,7 +85,7 @@ function getSpotify(songName) {
         //return The album that the song is from
         console.log("Album: " + data.tracks.items[0].album.name + "\r\n");
 
-        // Append text into log.txt file
+        // Append text to log.txt
         var logSong = "======Begin Spotify Log Entry======" + "\nArtist: " + data.tracks.items[0].album.artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\n Preview Link: " + data.tracks.items[0].href + "\nAlbum Name: " + data.tracks.items[0].album.name + "\n======End Spotify Log Entry======" + "\n";
 
         fs.appendFile("log.txt", logSong, function (err) {
@@ -104,7 +104,9 @@ function getBandsInTown(artist) {
 
     axios.get(bandQueryURL).then(
         function (response) {
-            // adding a line break for clarity of when search results begin
+            
+            // Line break added for neatness when search results start
+            
             console.log("=============================");
             //console.log(response);
             console.log("Name of the venue: " + response.data[0].venue.name + "\r\n");
@@ -124,18 +126,25 @@ function getBandsInTown(artist) {
 // OMDb function
 
 function getOMDB(movie) {
+    
     //console.log("Movie: " + movie);
-    //If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+    
+    // If user doesn't add movie, program will auto output data for "Crimes and Misdemeanors" film 
+    
+    
     if (!movie) {
-        movie = "Mr. Nobody";
+        movie = "Crimes and Misdemeanors";
     }
     var movieQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
-    //console.log(movieQueryUrl);
+    
+    
+    
     axios.request(movieQueryUrl).then(
         function (response) {
-            // console.log(response.data);
-            // adding a line break for clarity of when search results begin
+            
+            
+            
             console.log("=============================");
             console.log("* Title: " + response.data.Title + "\r\n");
             console.log("* Year Released: " + response.data.Year + "\r\n");
@@ -146,7 +155,8 @@ function getOMDB(movie) {
             console.log("* Plot: " + response.data.Plot + "\r\n");
             console.log("* Actors: " + response.data.Actors + "\r\n");
 
-            //logResults(response);
+            // Log response;
+            
             var logMovie = "======Begin Movie Log Entry======" + "\nMovie title: " + response.data.Title + "\nYear released: " + response.data.Year + "\nIMDB rating: " + response.data.imdbRating + "\nRotten Tomatoes rating: " + response.data.Ratings[1].Value + "\nCountry where produced: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot + "\nActors: " + response.data.Actors + "\n======End Movie Log Entry======" + "\n";
 
             fs.appendFile("log.txt", logMovie, function (err) {

@@ -36,3 +36,23 @@ Language: English, Yiddish
 Plot: A nerdish store owner is revived out of cryostasis into a future world to fight an oppressive government.
 Actors: Woody Allen, Diane Keaton, John Beck, Mary Gregory
 ======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Crimes and Misdemeanors
+Year released: 1989
+IMDB rating: 8.0
+Rotten Tomatoes rating: 93%
+Country where produced: USA
+Language: English, Hebrew
+Plot: An ophthalmologist's mistress threatens to reveal their affair to his wife while a married documentary filmmaker is infatuated with another woman.
+Actors: Bill Bernstein, Martin Landau, Claire Bloom, Stephanie Roth Haberle
+======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: A Clockwork Orange
+Year released: 1971
+IMDB rating: 8.3
+Rotten Tomatoes rating: 90%
+Country where produced: UK, USA
+Language: English
+Plot: In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
+Actors: Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
+======End Movie Log Entry======
