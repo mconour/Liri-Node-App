@@ -53,10 +53,8 @@ function runLiri(userCommands, userSearch) {
 }
 
 
+// Function to search Spotify
 
-
-
-//----------Function to search Spotify API
 function getSpotify(songName) {
     // Variables for the secret ids for spotify
     var spotify = new Spotify(keys.spotify);
@@ -97,7 +95,8 @@ function getSpotify(songName) {
     });
 }
 
-//---------Function to search Bands In Town API
+// Bandsintown function
+
 function getBandsInTown(artist) {
 
     var artist = userSearch;
@@ -122,7 +121,8 @@ function getBandsInTown(artist) {
         });
 }
 
-//---------Function to search OMDB API
+// OMDb function
+
 function getOMDB(movie) {
     //console.log("Movie: " + movie);
     //If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
@@ -156,8 +156,18 @@ function getOMDB(movie) {
 }
 
 
-// Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-// FUNCTION RANDOM
+/*
+
+Take the text inside of random.txt 
+and use it to call one of the app's commands, 
+using FS Node package
+
+*/
+
+
+
+// Random function
+
 function getRandom() {
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
@@ -174,7 +184,8 @@ function getRandom() {
     });
 }
 
-// FUNCTION to log results from the other funtions
+// This function is used to log results from other functions
+
 function logResults(data) {
     fs.appendFile("log.txt", data, function (err) {
         if (err) throw err;

@@ -26,3 +26,13 @@ Song Name: I Want It That Way
  Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
 Album Name: The Hits--Chapter One
 ======End Spotify Log Entry======
+======Begin Movie Log Entry======
+Movie title: Sleeper
+Year released: 1973
+IMDB rating: 7.3
+Rotten Tomatoes rating: 100%
+Country where produced: USA
+Language: English, Yiddish
+Plot: A nerdish store owner is revived out of cryostasis into a future world to fight an oppressive government.
+Actors: Woody Allen, Diane Keaton, John Beck, Mary Gregory
+======End Movie Log Entry======
