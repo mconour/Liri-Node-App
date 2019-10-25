@@ -56,3 +56,33 @@ Language: English
 Plot: In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
 Actors: Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
 ======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Annie Hall
+Year released: 1977
+IMDB rating: 8.0
+Rotten Tomatoes rating: 97%
+Country where produced: USA
+Language: English, German
+Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
+Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Annie Hall
+Year released: 1977
+IMDB rating: 8.0
+Rotten Tomatoes rating: 97%
+Country where produced: USA
+Language: English, German
+Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
+Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Annie Hall
+Year released: 1977
+IMDB rating: 8.0
+Rotten Tomatoes rating: 97%
+Country where produced: USA
+Language: English, German
+Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
+Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+======End Movie Log Entry======
