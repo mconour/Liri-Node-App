@@ -1,88 +1,44 @@
 ======Begin Movie Log Entry======
-Movie title: Annie Hall
-Year released: 1977
-IMDB rating: 8.0
-Rotten Tomatoes rating: 97%
-Country where produced: USA
-Language: English, German
-Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
-Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+Movie title: Joker
+Year released: 2019
+IMDB rating: 8.9
+Rotten Tomatoes rating: 68%
+Country where produced: USA, Canada
+Language: English
+Plot: In Gotham City, mentally-troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: "The Joker".
+Actors: Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy
 ======End Movie Log Entry======
-======Begin Spotify Log Entry======
-Artist: Melvins
-Song Name: A History of Bad Men
- Preview Link: https://api.spotify.com/v1/tracks/334dGM2YusM2XejQdldax2
-Album Name: A Senile Animal
-======End Spotify Log Entry======
 ======Begin Concert Log Entry======
-Name of the musician: Built to Spill
-Name of the venue: Lucky You Lounge
-Venue location: Spokane
- Date of event: 06-21-2019
+Name of the musician: Modest Mouse
+Name of the venue: Moda Center
+Venue location: Portland
+ Date of event: 11-22-2019
 ======End Concert Log Entry======
 ======Begin Spotify Log Entry======
-Artist: Backstreet Boys
-Song Name: I Want It That Way
- Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
-Album Name: The Hits--Chapter One
+Artist: Modest Mouse
+Song Name: The World At Large
+ Preview Link: https://api.spotify.com/v1/tracks/5op53ANI4exiWqFHKuwWxd
+Album Name: Good News For People Who Love Bad News
+======End Spotify Log Entry======
+======Begin Concert Log Entry======
+Name of the musician: Black Keys
+Name of the venue: Moda Center
+Venue location: Portland
+ Date of event: 11-22-2019
+======End Concert Log Entry======
+======Begin Spotify Log Entry======
+Artist: The Beatles
+Song Name: Yesterday - Remastered 2009
+ Preview Link: https://api.spotify.com/v1/tracks/3BQHpFgAp4l80e1XslIjNI
+Album Name: Help! (Remastered)
 ======End Spotify Log Entry======
 ======Begin Movie Log Entry======
-Movie title: Sleeper
-Year released: 1973
-IMDB rating: 7.3
-Rotten Tomatoes rating: 100%
+Movie title: The Godfather
+Year released: 1972
+IMDB rating: 9.2
+Rotten Tomatoes rating: 98%
 Country where produced: USA
-Language: English, Yiddish
-Plot: A nerdish store owner is revived out of cryostasis into a future world to fight an oppressive government.
-Actors: Woody Allen, Diane Keaton, John Beck, Mary Gregory
-======End Movie Log Entry======
-======Begin Movie Log Entry======
-Movie title: Crimes and Misdemeanors
-Year released: 1989
-IMDB rating: 8.0
-Rotten Tomatoes rating: 93%
-Country where produced: USA
-Language: English, Hebrew
-Plot: An ophthalmologist's mistress threatens to reveal their affair to his wife while a married documentary filmmaker is infatuated with another woman.
-Actors: Bill Bernstein, Martin Landau, Claire Bloom, Stephanie Roth Haberle
-======End Movie Log Entry======
-======Begin Movie Log Entry======
-Movie title: A Clockwork Orange
-Year released: 1971
-IMDB rating: 8.3
-Rotten Tomatoes rating: 90%
-Country where produced: UK, USA
-Language: English
-Plot: In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
-Actors: Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
-======End Movie Log Entry======
-======Begin Movie Log Entry======
-Movie title: Annie Hall
-Year released: 1977
-IMDB rating: 8.0
-Rotten Tomatoes rating: 97%
-Country where produced: USA
-Language: English, German
-Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
-Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
-======End Movie Log Entry======
-======Begin Movie Log Entry======
-Movie title: Annie Hall
-Year released: 1977
-IMDB rating: 8.0
-Rotten Tomatoes rating: 97%
-Country where produced: USA
-Language: English, German
-Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
-Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
-======End Movie Log Entry======
-======Begin Movie Log Entry======
-Movie title: Annie Hall
-Year released: 1977
-IMDB rating: 8.0
-Rotten Tomatoes rating: 97%
-Country where produced: USA
-Language: English, German
-Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
-Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
 ======End Movie Log Entry======

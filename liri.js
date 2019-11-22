@@ -137,14 +137,10 @@ function getOMDB(movie) {
     }
     var movieQueryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
-    
-    
-    
+       
     axios.request(movieQueryUrl).then(
-        function (response) {
-            
-            
-            
+        function (response) {           
+          
             console.log("=============================");
             console.log("* Title: " + response.data.Title + "\r\n");
             console.log("* Year Released: " + response.data.Year + "\r\n");
