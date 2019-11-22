@@ -26,3 +26,31 @@ Song Name: I Want It That Way
  Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
 Album Name: The Hits--Chapter One
 ======End Spotify Log Entry======
+======Begin Movie Log Entry======
+Movie title: Back to the Future
+Year released: 1985
+IMDB rating: 8.5
+Rotten Tomatoes rating: 96%
+Country where produced: USA
+Language: English
+Plot: Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+Actors: Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+======End Movie Log Entry======
+======Begin Spotify Log Entry======
+Artist: The Beatles
+Song Name: Yesterday - Remastered 2009
+ Preview Link: https://api.spotify.com/v1/tracks/3BQHpFgAp4l80e1XslIjNI
+Album Name: Help! (Remastered)
+======End Spotify Log Entry======
+======Begin Concert Log Entry======
+Name of the musician: Black Keys
+Name of the venue: Moda Center
+Venue location: Portland
+ Date of event: 11-22-2019
+======End Concert Log Entry======
+======Begin Spotify Log Entry======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======End Spotify Log Entry======
