@@ -42,3 +42,31 @@ Language: English, Italian, Latin
 Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
 Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
 ======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Annie Hall
+Year released: 1977
+IMDB rating: 8.0
+Rotten Tomatoes rating: 97%
+Country where produced: USA
+Language: English, German
+Plot: Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.
+Actors: Woody Allen, Diane Keaton, Tony Roberts, Carol Kane
+======End Movie Log Entry======
+======Begin Spotify Log Entry======
+Artist: Pink Floyd
+Song Name: Wish You Were Here
+ Preview Link: https://api.spotify.com/v1/tracks/6mFkJmJqdDVQ1REhVfGgd1
+Album Name: Wish You Were Here
+======End Spotify Log Entry======
+======Begin Concert Log Entry======
+Name of the musician: Black Keys
+Name of the venue: Moda Center
+Venue location: Portland
+ Date of event: 11-22-2019
+======End Concert Log Entry======
+======Begin Spotify Log Entry======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======End Spotify Log Entry======
