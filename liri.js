@@ -1,11 +1,9 @@
 require("dotenv").config();
 
 /*
-
-1. Variable for keys.js file to access required Spotify API keys (located in same root directory)
-
-2. Variables for required packages, which inclues Axios, Dotenv, FS to read/write, Spotify and Moment for converting event date for Bandsintown API
-
+==> variable for keys.js file to access required Spotify API keys (located in same root directory)
+==> variables for required packages, which inclues Axios, Dotenv, FS to read/write, 
+Spotify and Moment for converting event date for Bandsintown API
 */
 
 var keys = require("./keys.js");
@@ -14,19 +12,18 @@ var axios = require("axios");
 var fs = require("fs");
 var moment = require("moment");
 
-// Variable for arguments to be entered by user in app
-
+// variable for arguments to be entered by user in app
 var userCommands = process.argv[2];
 
 //console.log("userCommands: " + userCommands);
 
-// Use slice method to account for user's search, starting with index 3 position forth because search could have spaces
+// use slice method to account for user's search, starting with index 3 position forth because search could have spaces
 
 var userSearch = process.argv.slice(3).join(" ");
 
 //console.log("userSearch: " + userSearch);
 
-// Using switch statement to execute code that's appropriate to the userCommands that's inputed from user 
+// using switch statement to execute code that's appropriate to the userCommands that's inputed from user 
 
 function runLiri(userCommands, userSearch) {
     switch (userCommands) {
@@ -44,17 +41,15 @@ function runLiri(userCommands, userSearch) {
             getRandom();
             break;
 
-            // If userCommands is left blank, defaul message below will display
+            // if userCommands is left blank, default message below will display
 
         default:
-            console.log("Ah ah ah, you didn't say one of the magic commands. Please enter 'movie-this', 'concert-this', 'spotify-this-song' or 'do-what-it-says' to continue");
+            console.log("You didn't say one of the magic commands. Please enter 'movie-this', 'concert-this', 'spotify-this-song' or 'do-what-it-says' to continue");
     }
-
 }
 
 
-// Function to search Spotify
-
+// function to search Spotify
 function getSpotify(songName) {
     // Variables for the secret ids for spotify
     var spotify = new Spotify(keys.spotify);
@@ -63,6 +58,7 @@ function getSpotify(songName) {
     if (!songName) {
         songName = "The Sign";
     }
+
     //console.log("SongName if not a song name: " + songName);
 
     spotify.search({
@@ -74,23 +70,29 @@ function getSpotify(songName) {
         }
 
         //console.log("Data for searched song: " + data.tracks.items[0]);
+
         // adding a line break for clarity of when search results begin
         console.log("=============================");
-        //return Artist(s)
+        
+        //return artist(s)
         console.log("Artist(s) Name: " + data.tracks.items[0].album.artists[0].name + "\r\n");
-        //return The song's name
+        
+        //return the song's name
         console.log("Song Name: " + data.tracks.items[0].name + "\r\n");
-        //return A preview link of the song from Spotify
+        
+        //return a preview link of the song from Spotify
         console.log("Song Preview Link: " + data.tracks.items[0].href + "\r\n");
-        //return The album that the song is from
+        
+        //return the album that the song is from
         console.log("Album: " + data.tracks.items[0].album.name + "\r\n");
 
-        // Append text to log.txt
+        // append text to log.txt
         var logSong = "======Begin Spotify Log Entry======" + "\nArtist: " + data.tracks.items[0].album.artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\n Preview Link: " + data.tracks.items[0].href + "\nAlbum Name: " + data.tracks.items[0].album.name + "\n======End Spotify Log Entry======" + "\n";
 
         fs.appendFile("log.txt", logSong, function (err) {
             if (err) throw err;
         });
+
         //logResults(data)
     });
 }
@@ -105,7 +107,7 @@ function getBandsInTown(artist) {
     axios.get(bandQueryURL).then(
         function (response) {
             
-            // Line break added for neatness when search results start
+            // line break added for neatness when search results start
             
             console.log("=============================");
             //console.log(response);
@@ -113,7 +115,7 @@ function getBandsInTown(artist) {
             console.log("Venue Location: " + response.data[0].venue.city + "\r\n");
             console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
 
-            // Append text into log.txt file
+            // append text into log.txt file
             var logConcert = "======Begin Concert Log Entry======" + "\nName of the musician: " + artist + "\nName of the venue: " + response.data[0].venue.name + "\nVenue location: " + response.data[0].venue.city + "\n Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\n======End Concert Log Entry======" + "\n";
 
             fs.appendFile("log.txt", logConcert, function (err) {
@@ -129,8 +131,7 @@ function getOMDB(movie) {
     
     //console.log("Movie: " + movie);
     
-    // If user doesn't add movie, program will auto output data for "Crimes and Misdemeanors" film 
-    
+    // if user doesn't add movie, program will auto output data for "Crimes and Misdemeanors" film     
     
     if (!movie) {
         movie = "Crimes and Misdemeanors";
@@ -163,17 +164,14 @@ function getOMDB(movie) {
 
 
 /*
-
-Take the text inside of random.txt 
+==> Take the text inside of random.txt 
 and use it to call one of the app's commands, 
 using FS Node package
-
 */
 
 
 
 // Random function
-
 function getRandom() {
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
@@ -190,7 +188,7 @@ function getRandom() {
     });
 }
 
-// This function is used to log results from other functions
+// this function is used to log results from other functions
 
 function logResults(data) {
     fs.appendFile("log.txt", data, function (err) {
