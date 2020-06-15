@@ -116,3 +116,13 @@ Song Name: Gold on the Ceiling
  Preview Link: https://api.spotify.com/v1/tracks/5lN1EH25gdiqT1SFALMAq1
 Album Name: El Camino
 ======End Spotify Log Entry======
+======Begin Movie Log Entry======
+Movie title: Back to the Future
+Year released: 1985
+IMDB rating: 8.5
+Rotten Tomatoes rating: 96%
+Country where produced: USA
+Language: English
+Plot: Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.
+Actors: Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+======End Movie Log Entry======
