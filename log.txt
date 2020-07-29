@@ -136,3 +136,25 @@ Language: English
 Plot: An airline pilot saves almost all his passengers on his malfunctioning airliner which eventually crashed, but an investigation into the accident reveals something troubling.
 Actors: Nadine Velazquez, Denzel Washington, Carter Cabassa, Adam C. Edwards
 ======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Babe
+Year released: 1995
+IMDB rating: 6.7
+Rotten Tomatoes rating: 97%
+Country where produced: Australia, USA
+Language: English
+Plot: Babe, a pig raised by sheepdogs, learns to herd sheep with a little help from Farmer Hoggett.
+Actors: Christine Cavanaugh, Miriam Margolyes, Danny Mann, Hugo Weaving
+======End Movie Log Entry======
+======Begin Spotify Log Entry======
+Artist: King Krule
+Song Name: Dum Surfer
+ Preview Link: https://api.spotify.com/v1/tracks/5mWhSQfWEeBZD9YTd4yyFc
+Album Name: The OOZ
+======End Spotify Log Entry======
+======Begin Spotify Log Entry======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/47BBI51FKFwOMlIiX6m8ya
+Album Name: Millennium
+======End Spotify Log Entry======
