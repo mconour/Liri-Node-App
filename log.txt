@@ -126,3 +126,13 @@ Language: English
 Plot: Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.
 Actors: Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
 ======End Movie Log Entry======
+======Begin Movie Log Entry======
+Movie title: Flight
+Year released: 2012
+IMDB rating: 7.3
+Rotten Tomatoes rating: 77%
+Country where produced: USA, United Arab Emirates
+Language: English
+Plot: An airline pilot saves almost all his passengers on his malfunctioning airliner which eventually crashed, but an investigation into the accident reveals something troubling.
+Actors: Nadine Velazquez, Denzel Washington, Carter Cabassa, Adam C. Edwards
+======End Movie Log Entry======
