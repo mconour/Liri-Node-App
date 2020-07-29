@@ -1,5 +1,9 @@
 # LiriNode Application
 
+Languagues: JavaScript
+
+Other: Node
+
 When running the app in the command line, use the following to find your desired data: 
 
 * node liri.js movie-this <*movie name here*>

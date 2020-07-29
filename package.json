@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mconour/Liri-Node-App.git"
+    "url": "git+https://github.com/mconour/lirinode-application.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mconour/Liri-Node-App/issues"
+    "url": "https://github.com/mconour/lirinode-application/issues"
   },
-  "homepage": "https://github.com/mconour/Liri-Node-App#readme",
+  "homepage": "https://github.com/mconour/lirinode-application#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "dotenv": "^8.0.0",
