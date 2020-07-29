@@ -1,5 +1,5 @@
 {
-  "name": "LiriNode-Application",
+  "name": "lirinode-application",
   "version": "1.0.0",
   "description": "liri node app",
   "main": "index.js",

@@ -1,8 +1,10 @@
 # LiriNode Application
 
-Languagues: JavaScript
 
-Other: Node
+```
+Languagues: JavaScript  
+Other: Node, Axios, Moment, APIs for Spotify, Bandsintown, and OMDb
+```
 
 When running the app in the command line, use the following to find your desired data: 
 
