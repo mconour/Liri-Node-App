@@ -1,9 +1,4 @@
-# Liri-Node-App
-Liri, similar to iPhone's Siri, is a node app that takes in parameters for movies, bands and songs, and then after returns relevant data.
-
-
-Used for search results, the app makes calls to Spotify, Bandsintown and OMDb APIs.   
-
+# LiriNode Application
 
 When running the app in the command line, use the following to find your desired data: 
 
