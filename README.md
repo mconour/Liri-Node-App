@@ -1,22 +1,3 @@
-# LiriNode Application
-
-
-```
-Languagues: JavaScript  
-Other: Node, Axios, Moment, APIs for Spotify, Bandsintown, and OMDb
-```
-
-When running the app in the command line, use the following to find your desired data: 
-
-* node liri.js movie-this <*movie name here*>
-* node liri.js spotify-this-song <*song name here*>
-* node liri.js concert-this <*artist/band name here*>
-* node liri.js do-what-it-says 
-
-
-<img src="demo-video.gif" />
-
-
 # LiriNode
 
 LiriNode, similar to iPhone's Siri, is a Node.js application that provides a simple command-line interface for performing various tasks using external APIs and libraries. It allows you to search for information about songs, concerts, and movies, and even execute random commands specified in a text file. Below is a breakdown of its features and functionalities:
