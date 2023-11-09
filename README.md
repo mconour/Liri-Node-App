@@ -61,8 +61,6 @@ node liri.js concert-this "Black Keys"
 
 This command will look up upcoming concerts for Black Keys and display the relevant details.
 
-<img src="demo-video.gif" />
-
 If you encounter any issues or have questions, refer to the application's error handling for guidance.
 
 Feel free to explore the world of LiriNode and make your life easier by retrieving information about songs, concerts, and movies with ease.
